@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 
 import { addTodo } from "../../redux/actions";
 import { Input } from "../Input/Input";
@@ -11,7 +12,7 @@ const nanoid = customAlphabet('1234567890', 6);
 
 export const CreateTodo = () => {
   const dispatch = useDispatch();
-  const [formValid, setFormValid] = useState (false);
+  const [formValid, setFormValid] = useState(false);
 
   const onSubmit: React.FormEventHandler<HTMLFormElement> = e => {
     e.preventDefault();
@@ -46,7 +47,7 @@ export const CreateTodo = () => {
   };
 
   
-
+  
   return (
     <>
       <h1 className={css.welcome}>Welcome to the planner</h1>
@@ -94,7 +95,7 @@ export const CreateTodo = () => {
             />
           </div>
         </div>
-      <button type="submit" className={css.btn} disabled={!formValid}>
+      <button type="submit" className={css.btn} >
         Add to list
       </button>
       </form>
