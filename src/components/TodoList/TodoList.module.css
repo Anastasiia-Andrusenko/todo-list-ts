@@ -1,0 +1,17 @@
+.container {
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px;
+  /* outline: 1px solid rgb(38, 0, 128); */
+  margin: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  color: white;
+}

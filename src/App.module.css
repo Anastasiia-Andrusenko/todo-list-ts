@@ -1,0 +1,21 @@
+.app {
+  max-width: 1400px;
+  height: 80vh;
+  min-height: 500px;
+  margin: 40px auto;
+  display: flex;
+
+  border-radius: 15px;
+  border: 5px solid white;
+}
+
+.sidebar {
+  position: relative;
+  padding: 20px 40px 30px 20px;
+  background-color: white;
+}
+
+.main {
+  margin: 40px auto 0 auto;
+  overflow-y: scroll;
+}

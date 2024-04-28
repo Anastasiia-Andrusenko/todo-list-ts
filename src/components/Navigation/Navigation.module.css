@@ -1,0 +1,19 @@
+.container {
+  margin-top: 20px;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  border-radius: 10px 10px 0 0;
+  border: 2px solid white;
+  padding: 6px 10px;
+  color: white;
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+.current {
+  background-color: white;
+  color: blueviolet;
+}
