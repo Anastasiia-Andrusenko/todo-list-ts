@@ -1,6 +1,8 @@
 {
   "name": "todo-list-ts",
   "version": "0.1.0",
+  "homepage": "https://Anastasiia-Andrusenko.github.io/todo-list-ts/",
+
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
