@@ -5,7 +5,6 @@ import { Suspense } from 'react';
 
 import { CreateTodo } from './components/CreateTodo/CreateTodo';
 
-// import { TodoList } from './components/TodoList/TodoList';
 import css from './App.module.css';
 import Navigation from './components/Navigation/Navigation';
 
@@ -15,10 +14,9 @@ const DeletedTodosPage = lazy(() => import('./pages/DeletedTodosPage/DeletedTodo
 
 function App() {
   const dispatch = useDispatch();
-  // const { isRefreshing } = useAuth();
+
 
   useEffect(() => {
-    // dispatch(refreshUser());
   }, [dispatch]);
 
   return (
@@ -29,7 +27,7 @@ function App() {
       <div className={css.main}>
         <Navigation/>
       <Suspense fallback={null}>
-        <Routes>
+        <Routes >
           <Route index element={<AllTodosPage/>} />
           <Route path="/done" element={<DoneTodosPage/>} />
           <Route path='/deleted' element={<DeletedTodosPage/>} />
